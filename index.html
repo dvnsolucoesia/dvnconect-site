@@ -71,17 +71,19 @@
     }
     .cta-button {
       display: inline-block;
-      background: #0d1b2a;
-      color: white;
-      padding: 15px 30px;
-      border-radius: 5px;
+      background: linear-gradient(135deg, #0d1b2a, #1b263b);
+      color: #ffffff;
+      padding: 18px 40px;
+      border-radius: 8px;
+      font-size: 1.4em;
+      font-weight: bold;
       text-decoration: none;
-      font-size: 1.2em;
-      margin-top: 20px;
-      transition: background 0.3s ease;
+      box-shadow: 0 0 15px rgba(70, 130, 180, 0.6);
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
     }
     .cta-button:hover {
-      background: #1b263b;
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(70, 130, 180, 0.9);
     }
     ol {
       padding-left: 0;
